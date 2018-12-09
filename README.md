@@ -1,4 +1,12 @@
+# Example application: Rust, Rocket & Heroku
+
 [![Build Status](https://travis-ci.org/emk/rust-buildpack-example-rocket.svg?branch=master)](https://travis-ci.org/emk/rust-buildpack-example-rocket)
+
+[Rust][] is a language suitable for high-peformance, reliable web services. [Rocket][] is a rich, user-friendly web framework. [Heroku][] deploys, manages and scales web applications.
+
+[Rust]: https://www.rust-lang.org/
+[Rocket]: https://rocket.rs/
+[Heroku]: https://www.heroku.com/
 
 To deploy this application to Heroku, use this button:
 
@@ -24,6 +32,6 @@ For further instructions, see the [page for this buildpack][buildpack].
 
 [buildpack]: https://github.com/emk/heroku-buildpack-rust
 
-### Does this work with the latest version of Rust?
+## Rocket and nightly Rust
 
 This application works with a specific version of nightly Rust, specified in [`./rust-toolchain`](./rust-toolchain). The Rocket framework currently requires some nightly-only features, although this is expected to change in the future Rocket 0.5.x series.
